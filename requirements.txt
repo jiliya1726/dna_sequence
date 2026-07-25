@@ -5,5 +5,5 @@ numpy
 matplotlib
 plotly
 openpyxl
-scikit_learn
+scikit-learn
 scipy
