@@ -7,4 +7,3 @@ plotly
 openpyxl
 scikit_learn
 scipy
-jiliya
