@@ -16,7 +16,7 @@ uploaded_file = st.file_uploader("Upload FASTA File", type=["fasta", "fa"])
 
 if uploaded_file is not None:
   # Decode binary file stream into text stream
-  stringio = io.StringIO(uploaded_file.getvalue().decode("utf-8", error="ignore"))
+  stringio = io.StringIO(uploaded_file.getvalue().decode("utf-8",error="ignore"))
 
   # Iterate through records in the FASTA file
   for record in SeqIO.parse(stringio, "fasta"):
